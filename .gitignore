@@ -1,0 +1,27 @@
+#Generaled classes
+
+*.class
+
+# Package Files
+*.jar
+*.war
+
+#Eclipse
+
+*.project
+*.classpath
+*.settings
+
+# Custom log file
+
+backend-device
+backend-device*
+
+#Maven
+
+target
+
+#Idea
+
+.idea/
+*.iml
