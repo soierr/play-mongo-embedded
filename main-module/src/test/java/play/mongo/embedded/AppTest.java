@@ -45,7 +45,8 @@ public class AppTest {
                         .download(new DownloadConfigBuilder()
                                 .defaultsForCommand(command)
                                 .downloadPrefix("")
-                                .downloadPath("file:\\C:\\embeddedmongo\\")
+                                .downloadPath("file:\\C:\\embeddedmongo\\") //this where it will be downloaded from
+                                //if you don't have mongo here FileNotFoundException will be thrown
                                 .artifactStorePath(iDirectory)
                                 .build())
                         .executableNaming(iTempNaming))

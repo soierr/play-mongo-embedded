@@ -4,8 +4,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
 public class TemplateVariable {
-    private String code;
-    private String description;
+    private final String code;
+    private final String description;
 
     public TemplateVariable(String code, String description) {
         this.code = code;
